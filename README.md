@@ -1,1 +1,1 @@
-# random_flowers
+# creates random images of flowers using an VAE
