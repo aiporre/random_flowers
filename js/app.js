@@ -1,5 +1,17 @@
-const colors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#00FFFF', '#FF00FF'];
+images = ["img/background_color/complement_9BA0BC.png", 
+          "img/background_color/complement_699CCD.png",
+          "img/background_color/complement_88918D.png", 
+          "img/background_color/complement_AFA7DD.png",
+          "img/background_color/complement_B4AFB2.png",
+          "img/background_color/complement_BBBEC8.png"];
 
+background_colors = [
+          "9BA0BC", 
+          "699CCD",
+          "88918D", 
+          "AFA7DD",
+          "B4AFB2",
+          "BBBEC8"];
 const btn = document.querySelector('#generate');
 const color = document.querySelector('.color');
 

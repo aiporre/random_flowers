@@ -186,6 +186,12 @@ main {
     place-items: center;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
+
 .logo {
     width: var(--logo-width);
     height: var(--logo-height);
