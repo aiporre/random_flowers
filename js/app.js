@@ -4,10 +4,8 @@ const btn = document.querySelector('#generate');
 const color = document.querySelector('.color');
 
 btn.addEventListener('click', function() {
-    // const random = Math.floor(Math.random() * colors.length);
-    // get random number berewe 0 and 3
-    // harcoder value of random number
-    const random = 2;
+    // get a random number between 0 and lenght of colors 
+    const random = Math.floor(Math.random() * colors.length);
     document.body.style.backgroundColor = colors[random];
     color.textContent = colors[random];
     console.log(random);
