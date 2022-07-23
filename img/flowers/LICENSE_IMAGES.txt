@@ -1,0 +1,9 @@
+EXTRACTED with Creative Common Licese
+
+
+ilsback, M-E. and Zisserman, A.
+Automated flower classification over a large number of classes
+Proceedings of the Indian Conference on Computer Vision, Graphics and Image Processing (2008)
+
+
+102 Category Flower Dataset :w
