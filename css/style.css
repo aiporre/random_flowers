@@ -186,7 +186,7 @@ main {
     place-items: center;
 }
 
-img{
+.flower {
     width: 100%;
     height: auto;
 }
