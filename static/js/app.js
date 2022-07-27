@@ -18,6 +18,7 @@ colors = [
 const btn = document.querySelector('#generate');
 const color = document.querySelector('.color');
 const flower = document.querySelector('.flower');
+const flowername = document.querySelector("#flowername");
 
 // btn.addEventListener('click', function() {
     // get a random number between 0 and lenght of colors 
@@ -31,13 +32,16 @@ const flower = document.querySelector('.flower');
 
 btn.addEventListener('click', async function() {
     // get a random number between 0 and lenght of colors A
-    let res = await fetch('generate');
+    const random = Math.floor(Math.random() * 1000);
+    let res = await fetch(`generate/${random}`);
     console.log('the response is: ', res);
     if (res.ok) {
         let data = await res.json();
         document.body.style.backgroundColor = data.color;
         flower.src = data.img; 
-        color.textContent = data.color;
+        flower.alt = `flower${random}`
+        color.textContent = data.description;
+        flowername.textContent = data.name;
         console.log(flower.src)
     } else{
         console.log('error while generating flower')

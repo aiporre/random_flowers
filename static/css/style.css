@@ -187,7 +187,7 @@ main {
 }
 
 .flower {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -218,6 +218,8 @@ main {
 
 .color {
     color: var(--clr-primary-5);
+    background-color: gray;
+    font-size: 24px;
 }
 
 /* FANCY btn-hero WITH TRANSITION AND DARK BORDERS   */

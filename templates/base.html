@@ -29,11 +29,13 @@
     <main>
       <div class="container"> 
         <img src="{{ url_for('static', path='img/flowers/image_00259.jpg') }}" alt="flower" class="flower">
-        <h2> Flower's name: 
-          <span class="color">
-            Liria 
-          </span>
+        <h2> <span id="flowername"> Flower's Name</span>: 
         </h2>
+        <p>
+          <span class="color">
+            Flower with thin yellow petals 
+          </span>
+        </p>
         <button class="btn" id="generate">Generate</button>
       </div>
     </main>
